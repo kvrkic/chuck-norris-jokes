@@ -8,9 +8,7 @@ const mainRoutes = require("./src/routes/main");
 let app = express();
 
 mongoose.set("strictQuery", false);
-mongoose.connect(settings.MONGODB_URL, () => {
-    console.log("Connected to MongoDB");
-});
+mongoose.connect(`${settings.MONGODB_URL}`);
 
 app.set("view engine", "ejs");
 

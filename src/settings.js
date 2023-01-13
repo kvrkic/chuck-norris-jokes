@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
     PORT: 3000,
-    MONGODB_URL: "mongodb://localhost:27017/usersDB",
+    MONGODB_URL: process.env.MONGODB_URL,
 
     //bcrypt algorithm strength
     BCRYPT_WORK_FACTOR: 14,
