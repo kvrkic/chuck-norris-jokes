@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("./head") %> 
+</head>
+
+<body>
+    <%- include("./header") %> 
+    <div class="container">
+        <h3>Log in:</h3>
+        <form action="/login" method="post">
+            <p>
+                <span>Email:</span>
+                <input type="email" name="email" required="true">
+            </p>
+            <p>
+                <span>Password:</span>
+                <input type="password" name="password" required="true" minlength="6" maxlength="16">
+            </p>
+            <input type="submit">
+        </form>
+        <% if(error) { %>
+            <h1> <%= error %>  </h1>
+        <% } %>   
+    </div>
+    <%- include("./footer") %> 
+</body>
+
+</html>
