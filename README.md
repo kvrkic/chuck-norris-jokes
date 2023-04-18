@@ -5,3 +5,12 @@ Node.js aplikacija koja nakon autorizacije korisniku šalje e-mail sa dohvaćeno
 Koristi se JWT autorizacijski token, lozinka se sprema u kriptiranom obliku<br />
 MongoDB baza podataka<br />
 Nodemailer<br />
+
+
+![screenshot](/../screenshots/screen1.png?raw=true)
+
+![screenshot](/../screenshots/screen2.png?raw=true)
+
+![screenshot](/../screenshots/screen3.png?raw=true)
+
+![screenshot](/../screenshots/screen4.png?raw=true)
